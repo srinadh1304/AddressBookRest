@@ -19,3 +19,17 @@
 2021-11-07 10:46:02.118  WARN 20203 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
 2021-11-07 10:46:02.228  INFO 20203 --- [restartedMain] c.b.addressbook.AddressbookApplication   : Started AddressbookApplication in 3.399 seconds (JVM running for 3.907)
 2021-11-07 10:46:02.232  INFO 20203 --- [restartedMain] c.b.addressbook.AddressbookApplication   : Addrress book app started
+2021-11-07 10:50:57.100  INFO 20203 --- [restartedMain] c.b.addressbook.AddressbookApplication   : Starting AddressbookApplication using Java 11.0.11 on srinadh-perfios with PID 20203 (/home/administrator/Documents/workspace-spring-tool-suite-4-4.12.1.RELEASE/addressbook/target/classes started by administrator in /home/administrator/Documents/workspace-spring-tool-suite-4-4.12.1.RELEASE/addressbook)
+2021-11-07 10:50:57.100 DEBUG 20203 --- [restartedMain] c.b.addressbook.AddressbookApplication   : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-07 10:50:57.101  INFO 20203 --- [restartedMain] c.b.addressbook.AddressbookApplication   : The following profiles are active: dev
+2021-11-07 10:50:57.649  WARN 20203 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-07 10:50:57.729  WARN 20203 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-07 10:50:57.783  INFO 20203 --- [restartedMain] c.b.addressbook.AddressbookApplication   : Started AddressbookApplication in 0.719 seconds (JVM running for 299.463)
+2021-11-07 10:50:57.787  INFO 20203 --- [restartedMain] c.b.addressbook.AddressbookApplication   : Addrress book app started
+2021-11-07 10:50:59.268  INFO 20203 --- [restartedMain] c.b.addressbook.AddressbookApplication   : Starting AddressbookApplication using Java 11.0.11 on srinadh-perfios with PID 20203 (/home/administrator/Documents/workspace-spring-tool-suite-4-4.12.1.RELEASE/addressbook/target/classes started by administrator in /home/administrator/Documents/workspace-spring-tool-suite-4-4.12.1.RELEASE/addressbook)
+2021-11-07 10:50:59.269 DEBUG 20203 --- [restartedMain] c.b.addressbook.AddressbookApplication   : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-07 10:50:59.269  INFO 20203 --- [restartedMain] c.b.addressbook.AddressbookApplication   : The following profiles are active: dev
+2021-11-07 10:50:59.675  WARN 20203 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-07 10:50:59.746  WARN 20203 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-07 10:50:59.784  INFO 20203 --- [restartedMain] c.b.addressbook.AddressbookApplication   : Started AddressbookApplication in 0.553 seconds (JVM running for 301.463)
+2021-11-07 10:50:59.786  INFO 20203 --- [restartedMain] c.b.addressbook.AddressbookApplication   : Addrress book app started
