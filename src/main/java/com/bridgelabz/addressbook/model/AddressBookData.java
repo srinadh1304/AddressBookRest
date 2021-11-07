@@ -9,7 +9,10 @@ public class AddressBookData {
     private String address;
     private String phoneNo;
     private String email;
-    
+    private String city;
+	private String state;
+	private String zip;
+
 	
 	public int getId() {
 		return Id;
@@ -44,7 +47,25 @@ public class AddressBookData {
 	@Override
 	public String toString() {
 		return "AddressBookData [Id=" + Id + ", name=" + name + ", address=" + address + ", phoneNo=" + phoneNo
-				+ ", email=" + email + "]";
+				+ ", email=" + email + ", city=" + city + ", state=" + state + ", zip=" + zip + "]";
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public String getState() {
+		return state;
+	}
+	public void setState(String state) {
+		this.state = state;
+	}
+	public String getZip() {
+		return zip;
+	}
+	public void setZip(String zip) {
+		this.zip = zip;
 	}
 	public AddressBookData(int id,AddressBookDTO addressbookDTO) {
 		super();
@@ -53,6 +74,9 @@ public class AddressBookData {
 		this.address = addressbookDTO.address;
 		this.phoneNo = addressbookDTO.phoneNo;
 		this.email = addressbookDTO.email;
+		this.city=addressbookDTO.city;
+		this.state=addressbookDTO.state;
+		this.zip=addressbookDTO.zip;
 	}
 	public AddressBookData()
 	{
